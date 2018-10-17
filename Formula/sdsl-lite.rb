@@ -2,6 +2,7 @@ class SdslLite < Formula
   # cite Gog_2013: "https://arxiv.org/abs/1311.1249"
   desc "Succinct Data Structure Library 2.0"
   homepage "https://github.com/simongog/sdsl-lite"
+  sha256 "8dd4e57e92f230756b699459861edef47d65d68dafc2de1aa4fd74b2dfe10d10"
   head "https://github.com/simongog/sdsl-lite", :branch => "master"
 
   # Use git to get submodules.
