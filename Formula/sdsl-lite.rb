@@ -6,10 +6,7 @@ class SdslLite < Formula
   head "https://github.com/simongog/sdsl-lite", :branch => "master"
 
   # Use git to get submodules.
-  url "https://github.com/simongog/sdsl-lite.git",
-    :revision => "0546faf0552142f06ff4b201b671a5769dd007ad",
-    :tag => "v2.1.1"
-  revision 2
+  url "https://github.com/simongog/sdsl-lite.git"
 
   bottle do
     root_url "https://linuxbrew.bintray.com/bottles-bio"
